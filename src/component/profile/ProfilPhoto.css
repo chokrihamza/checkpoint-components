@@ -1,0 +1,23 @@
+.avatar{
+    text-align: center;
+    top:0;
+
+  
+}
+.ProfilPhoto{
+    
+    transition:transform ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+.AvatarImage{
+    
+   box-shadow: 1px ; 
+   border-radius: 10px;
+
+}
+.AvatarImage:hover{
+    transform:scale(1.02);
+    transition: 300ms ease-in-out;
+
+}
